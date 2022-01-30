@@ -1,0 +1,9 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto c8e25721e0344d4daf9679628b5979b2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot alu_tb_behav xil_defaultlib.alu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 5 for port 'reg_Y_out' [E:/Xilinx/Vivado/2020.2/examples/ALU.srcs/sim_1/new/alu_tb.v:46]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
